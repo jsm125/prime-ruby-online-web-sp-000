@@ -5,5 +5,6 @@ def prime?number)
       number % number-1 == 0
     end
   else
-    
+    false
+  
 end
