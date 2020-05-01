@@ -1,3 +1,4 @@
 def prime?number)
-  if prime?
+  if number > 1
+
 end
