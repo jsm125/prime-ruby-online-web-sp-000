@@ -3,7 +3,7 @@ def prime?(number)
     range = (2..number-1).to_a
     range.none? do |x|
       number % x == 0
-    true
+    end
   else
     false
   end
