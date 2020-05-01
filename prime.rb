@@ -1,4 +1,4 @@
 def prime?number)
   if number > 1
-  range = ()
+  range = (2..)
 end
