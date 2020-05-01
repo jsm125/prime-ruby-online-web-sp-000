@@ -3,6 +3,7 @@ def prime(number)
   prime_numbers = []
   while i < number.length
     prime_numbers << yield(numbers[i])
+  end
   if number.prime?
     true
   else
